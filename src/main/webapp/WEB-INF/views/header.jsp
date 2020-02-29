@@ -38,25 +38,23 @@
     .bottom-toolbar {
         background-color: saddlebrown;
         border: 1px inset black;
-        padding: 10px;
+        padding: 15px;
+        hight:20%;
     }
 
     .container {
         padding: 9%;
         background-color: #FAF7E5;
         border: 2px groove saddlebrown;
-        hight: 70%;
+        hight: 80%;
         margin-inside: 1%;
         align-content: center;
         margin-bottom: 2%;
-
 
     }
 
 
     table, th, tr {
-
-
         text-align: left;
         color: #600201;
     }
@@ -84,13 +82,11 @@
     }
 
     #surname {
-
         margin: 1%;
         width: 100%;
         height: 40%;
         float: left;
         color: #866423;
-
     }
 
     #citi {
@@ -170,7 +166,7 @@
     }
 
     input[type=submit]:hover {
-        background-color: 	#C0C0C0;
+        background-color: #C0C0C0;
 
     }
 </style>

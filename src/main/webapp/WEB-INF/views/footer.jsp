@@ -10,10 +10,7 @@
 
 <footer>
 <div class="bottom-toolbar">
-
     <span class="text-muted">Phonebook by Magdalena Kobiałka 2020</span>
 </div>
 </footer>
 
-        </body>
-        </html>

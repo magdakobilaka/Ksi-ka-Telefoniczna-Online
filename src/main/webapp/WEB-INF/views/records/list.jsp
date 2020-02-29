@@ -11,10 +11,9 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <jsp:include page="/WEB-INF/views/header.jsp"/>
 <c:url value="/" var="mainURL"/>
-<main role="main" class="flex-shrink-0">
+<main role="main" style="width: 100% ">
     <br>
-    <div class="container">
-
+    <div class="container" >
             <div class="form-row">
                 <div class="form-group col-md-8">
                     <h2 class="cover-heading">Lista Kontaktów</h2>

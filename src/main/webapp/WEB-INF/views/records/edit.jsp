@@ -14,7 +14,7 @@
 <c:set var="contextPath" value="${pageContext.request.contextPath}/records"/>
 <jsp:include page="/WEB-INF/views/header.jsp"/>
 <c:url value="/" var="mainURL"/>
-<main role="main" class="flex-shrink-0">
+<main role="main" style="height: 100%">
     <br>
     <div class="container">
 

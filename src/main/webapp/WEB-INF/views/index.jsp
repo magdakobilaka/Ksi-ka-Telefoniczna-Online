@@ -17,8 +17,8 @@
         <br>
         <div class="box">
             <h3>Witaj w książce telefonicznej online !</h3>
-            <img src="images/books.jpg"
-                 style="width:200px;height:200px;margin:15px;">
+<%--            <img src="images/books.jpg"--%>
+<%--                 style="width:200px;height:200px;margin:15px;">--%>
             <p> Początki
                 telefonów sięgają XIX wieku. Za jego wynalazcę
                 uznaje się Aleksandra Bella, który prawdopodobnie
@@ -37,7 +37,9 @@
                 telefoniczne, które zawierały dane większości
                 abonentów – miały one ułatwić kontakt i umożliwić
                 znalezienie numeru konkretnej osoby na podstawie
-                chociażby miejsca jej zamieszkania.
+                chociażby miejsca jej zamieszkania. Teraz dzięki nowym technologią możemy cieszyć się z książek
+                telefonicznych online takich jak ta.
+                Zapraszamy do korzystania!
             </p>
 
 

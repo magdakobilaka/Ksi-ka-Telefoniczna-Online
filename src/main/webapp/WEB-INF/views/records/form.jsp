@@ -16,10 +16,10 @@
     <br>
     <div class="container">
 
-            <div class="form-row">
-                <div class="form-group col-md-8">
-                    <h2 class="cover-heading">    Dodaj Kontakt</h2>
-                    <form:form action="${contextPath}/form" method="post" modelAttribute="record">
+        <div class="form-row">
+            <div class="form-group col-md-8">
+                <h2 class="cover-heading">    Dodaj Kontakt</h2>
+                <form:form action="${contextPath}/form" method="post" modelAttribute="record">
                     <form:hidden path="id"/>
                     <div>
                         <h5>Nazwisko:</h5> <form:input path="surname" />
@@ -29,30 +29,31 @@
                         <h5>Imie:</h5> <form:input path="name"/>
                         <form:errors path="name" cssClass="error"/>
                     </div>
-                <div>
-                   <h5> Miasto:</h5> <form:input path="city"/>
-                    <form:errors path="city" cssClass="error"/>
-                </div>
-                <div>
-                   <h5> Ulica:</h5> <form:input path="street"/>
-                    <form:errors path="street" cssClass="error"/>
-                </div>
-                <div>
-                 <h5>  Numer domu:</h5>  <form:input path="flatnumber"/>
-                    <form:errors path="flatnumber" cssClass="error"/>
-                </div>
-                <div>
-                  <h5>  Numer Telefonu:</h5> <form:input path="phonenumber"/>
-                    <form:errors path="phonenumber" cssClass="error"/>
-                </div>
-                <div>
-                    <input type="submit" value="Zapisz">
-                </div>
+                    <div>
+                        <h5> Miasto:</h5> <form:input path="city"/>
+                        <form:errors path="city" cssClass="error"/>
+                    </div>
+                    <div>
+                        <h5> Ulica:</h5> <form:input path="street"/>
+                        <form:errors path="street" cssClass="error"/>
+                    </div>
+                    <div>
+                        <h5>  Numer domu:</h5>  <form:input path="flatnumber"/>
+                        <form:errors path="flatnumber" cssClass="error"/>
+                    </div>
+                    <div>
+                        <h5>  Numer Telefonu:</h5> <form:input path="phonenumber"/>
+                        <form:errors path="phonenumber" cssClass="error"/>
+                    </div>
+                    <div>
+                        <input type="submit" value="Zapisz">
+                    </div>
                 </form:form>
             </div>
 
-            </div>
+        </div>
     </div>
 </main>
+</br>
 <jsp:include page="/WEB-INF/views/footer.jsp"/>
 
