@@ -20,7 +20,6 @@
 
         <form:form  action="${contextPath}/search" method="post" modelAttribute="record">
             <form:hidden path="id"/>
-
             <h5>Szukaj po nazwisku :</h5>
             <div id="surname">
                <form:input path="surname" placeholder="Podaj nazwisko"/>

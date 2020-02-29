@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Set;
 
 public interface RecordRepository extends JpaRepository<Record, Long> {
-
+    @Query("SELECT r from Record r where r.surname =?1 ")
     List<Record> findBySurname(String surname);
 
     @Query("SELECT r from Record r where r.city =?1 and r.street=?2 and r.flatnumber=?3")
